@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Bank Service</title>
+<link rel="stylesheet" type="text/css" href="css/registerUI.css">
+<script>
+	function myFunction() {
+		document.getElementById("register_form").reset();
+	}
+</script>
+</head>
+<body>
+	<div class="register_page">
+		<div class="register_form" >
+			<div class="register_header"><h2>REGISTER</h2></div>		
+			<form action="/bank/register" method="POST" id="register_form">
+			<div class="register_left">
+			<label>ID CARD(13)</label>
+			<input type="text" class="idcard" name="idcard"></input>
+			<br/>
+			<label>FIRST NAME</label>
+			<input type="text" name="firstname"></input>
+			<br/>
+			<label>LAST NAME</label>
+			<input type="text" name="lastname"></input>
+			<br/>
+			<label>ADDRESS</label>
+			<input type="text" name="address"></input>
+			<br/>
+			<label>E-MAIL</label>
+			<input type="email" name="email" autocomplete="off"></input>
+			<br/>
+			<label>USERNAME</label>
+			<input type="text" name="username"></input>
+			<br/>
+			<label>PASSWORD</label>
+			<input type="password" name="password"></input>
+			<br/>
+			<label>CONFIRM PASSWORD</label>
+			<input type="password" name="password"></input>
+			</div>
+			<br/>
+			<input type="submit" class="register_submit" value="REGISTER" name="register"></input>
+			<input type="button" class="register_submit" onclick="myFunction()" value="CANCEL"></input>
+			<br/>
+			<div class="register_text"><a href="login.html">< Back Page</a></div>
+			</form>
+		</div>		
+	</div>	
+</body>
+</html>

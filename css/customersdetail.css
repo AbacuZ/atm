@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+body {
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #666;
+	font-family: Lato;
+	font-size:16px;
+	font-weight: 300;
+}
+.login_page {
+	margin: 0;
+}
+.login_form {
+	text-align:center;
+	padding-bottom: 30px;
+	max-width: 450px;
+	margin: 0 auto;
+	margin-top: 160px;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+	background-color:white;
+}
+.login_form .login_header {
+	background-color: #665851;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+	line-height: 2.8em;
+	color: white;
+}
+.login_form label {
+	color: #888;
+	line-height: 2.0em;
+}
+.login_form input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: .9em;
+}
+.login_form input:focus {
+	outline: none;
+	border-color: #665851;
+	color: #665851;
+}
+.login_submit {
+	color: white !important;
+	outline: none;
+	background-color: #665851;
+	border: none !important;
+}
+.login_text {
+	font-size:12px;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color: #aeaeae;
+}
+.textButtonRed {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #C62828;
+	font-size: .9em;
+	color:white;
+}
+.textButtonGreen {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	font-size: .9em;
+	color:white;
+}
+.fixed_form {
+	float: left;
+}
+.fixedLeft {
+	position: absolute;
+    left: 80px;
+}
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align: left; 
+	width: 100%; 
+} 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 1px solid #006699; 
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+}
+.datagrid table td, .datagrid table th { 
+padding: 3px 10px; 
+}
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+	background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+	background-color:#006699; 
+	color:#FFFFFF; 
+	font-size: 15px; 
+	font-weight: bold; 
+	border-left: 1px solid #0070A8; 
+} 
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { 
+	color: #00557F; border-left: 1px solid #E1EEF4;
+	font-size: 12px;font-weight: normal; 
+}
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+.datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4;}
+.datagrid table tfoot td { padding: 0; font-size: 12px } 
+.datagrid table tfoot td div{ padding: 2px; }
